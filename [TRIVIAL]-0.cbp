@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="[TRIVIAL]-0" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/[TRIVIAL]-0" prefix_auto="1" extension_auto="1" />
+				<Option working_dir="bin/Debug" />
+				<Option object_output="obj/Debug/" />
+				<Option type="0" />
+				<Option compiler="gcc" />
+				<Option parameters='&quot;pic_0.bmp&quot;' />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/[TRIVIAL]-0" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="0" />
+				<Option compiler="gcc" />
+				<Option parameters='&quot;pic_0.bmp&quot;' />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-fexceptions" />
+		</Compiler>
+		<Unit filename="camera.h" />
+		<Unit filename="display.cpp" />
+		<Unit filename="display.h" />
+		<Unit filename="filter.h" />
+		<Unit filename="framework.h" />
+		<Unit filename="gdi.h" />
+		<Unit filename="helper.cpp" />
+		<Unit filename="helper.h" />
+		<Unit filename="image.h" />
+		<Unit filename="main.cpp" />
+		<Unit filename="rgba.cpp" />
+		<Unit filename="rgba.h" />
+		<Unit filename="targetver.h" />
+		<Unit filename="texture.cpp" />
+		<Unit filename="texture.h" />
+		<Unit filename="vec2.cpp" />
+		<Unit filename="vec2.h" />
+		<Unit filename="vecfunctions.cpp" />
+		<Unit filename="vecfunctions.h" />
+		<Unit filename="window.cpp" />
+		<Unit filename="window.h" />
+		<Extensions />
+	</Project>
+</CodeBlocks_project_file>

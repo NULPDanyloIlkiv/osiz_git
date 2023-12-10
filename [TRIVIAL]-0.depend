@@ -1,0 +1,101 @@
+# depslib dependency file v1.0
+1701270203 source:c:\users\user\documents\codeblocks\[trivial]-0\display.cpp
+	"display.h"
+
+1701255513 c:\users\user\documents\codeblocks\[trivial]-0\display.h
+	"framework.h"
+
+1701275713 c:\users\user\documents\codeblocks\[trivial]-0\framework.h
+	"targetver.h"
+	<windows.h>
+	<windowsx.h>
+	<shellapi.h>
+	<psapi.h>
+	<stdlib.h>
+	<malloc.h>
+	<memory.h>
+	<inttypes.h>
+	<iostream>
+	<algorithm>
+	<vector>
+	<array>
+	<stack>
+	<set>
+	<string>
+	<list>
+	<map>
+	<functional>
+	<chrono>
+	<thread>
+	<atomic>
+	<mutex>
+	<condition_variable>
+	"helper.h"
+	"vec2.h"
+	"vecfunctions.h"
+
+1701185318 c:\users\user\documents\codeblocks\[trivial]-0\targetver.h
+	<WinSDKVer.h>
+	<SDKDDKVer.h>
+
+1701175264 c:\users\user\documents\codeblocks\[trivial]-0\helper.h
+	"framework.h"
+
+1693154559 c:\users\user\documents\codeblocks\[trivial]-0\vec2.h
+
+1701174120 c:\users\user\documents\codeblocks\[trivial]-0\vecfunctions.h
+	<cmath>
+	<windows.h>
+	"vec2.h"
+
+1701439791 source:c:\users\user\documents\codeblocks\[trivial]-0\helper.cpp
+	"helper.h"
+
+1693154556 source:c:\users\user\documents\codeblocks\[trivial]-0\vec2.cpp
+	"vec2.h"
+
+1701175135 source:c:\users\user\documents\codeblocks\[trivial]-0\vecfunctions.cpp
+	"vecfunctions.h"
+
+1701613726 source:c:\users\user\documents\codeblocks\[trivial]-0\main.cpp
+	"framework.h"
+	"window.h"
+	"gdi.h"
+	"camera.h"
+	"image.h"
+
+1701175321 c:\users\user\documents\codeblocks\[trivial]-0\window.h
+	"framework.h"
+
+1701175542 source:c:\users\user\documents\codeblocks\[trivial]-0\window.cpp
+	"window.h"
+
+1701178958 source:c:\users\user\documents\codeblocks\[trivial]-0\rgba.cpp
+	"rgba.h"
+
+1701192378 c:\users\user\documents\codeblocks\[trivial]-0\rgba.h
+	"framework.h"
+
+1701434345 source:c:\users\user\documents\codeblocks\[trivial]-0\texture.cpp
+	"texture.h"
+	"rgba.h"
+
+1701347697 c:\users\user\documents\codeblocks\[trivial]-0\texture.h
+	"framework.h"
+
+1701362040 c:\users\user\documents\codeblocks\[trivial]-0\gdi.h
+	"framework.h"
+	"display.h"
+	"rgba.h"
+	"texture.h"
+
+1701269085 c:\users\user\documents\codeblocks\[trivial]-0\camera.h
+
+1701550047 c:\users\user\documents\codeblocks\[trivial]-0\filter.h
+	"framework.h"
+
+1701604981 c:\users\user\documents\codeblocks\[trivial]-0\image.h
+	"framework.h"
+	"texture.h"
+	"filter.h"
+
